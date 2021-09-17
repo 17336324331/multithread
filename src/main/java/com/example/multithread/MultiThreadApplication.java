@@ -10,4 +10,9 @@ public class MultiThreadApplication {
         SpringApplication.run(MultiThreadApplication.class, args);
     }
 
+    private String helloQinhua(){
+        System.out.println("love you");
+        return "";
+    }
+
 }
